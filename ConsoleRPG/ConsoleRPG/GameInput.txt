@@ -1,0 +1,35 @@
+Item: Screwdriver
+Description: A useful tool to open other items
+
+Item: Red Key
+Description: A red key that is used to open other items
+
+Item: Letter
+Description: A love letter from Sandra to someone named Peter
+
+Item: Strongbox
+Description: A sturdy box. I has seen better times
+Contents: Red Key, Letter
+Keys: Screwdriver
+
+Location: 1
+Name: Outside Building
+Description: You are standing in front of a small building.
+Contents: Screwdriver, Strongbox
+WEST 3
+NORTH 2, Red Key
+IN 2, Red Key
+
+Location: 2
+Name: Inside Building
+Description: You are inside a building, a well house for a large spring.
+Contents: Rubber Duck
+SOUTH 1
+OUT
+
+Location: 3
+Name: Building's garden
+Description: This is the buildings garden.
+Contents: Shovel, Pot
+EAST 1
+
